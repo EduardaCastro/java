@@ -17,14 +17,13 @@ public static void main(String[] args) {
             // Inicializar o resultado do fatorial como 1
             long fatorial = 1;
 
-            // Calcular o fatorial usando um loop while
+       
             int contador = numero;
             while (contador > 0) {
                 fatorial *= contador;
                 contador--;
             }
 
-            // Exibir o resultado
             System.out.println("O fatorial de " + numero + " é " + fatorial + ".");
         }
 
