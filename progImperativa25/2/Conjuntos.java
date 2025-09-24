@@ -66,7 +66,7 @@ public class Conjuntos {
         } while (opcao != 0);
     }
 
-    // ---------- Funções auxiliares ----------
+
 
     public static int inserirElemento(int[] v, int tam) {
         if (tam >= v.length) {
